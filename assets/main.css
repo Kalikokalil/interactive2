@@ -9,6 +9,8 @@ body {
 	font-family: 'Neuzeit Grotesk', Helvetica;
 	font-size: 14px;
 	line-height: 1.6;
+	
+
 }
 
 #desktop {
@@ -37,16 +39,26 @@ a {
 	border-bottom: line-through;
 	text-decoration: none;
 	color: black;
+	background-color: white;
 }
 
 a:hover {
-border-bottom: 6px solid black;
+
 background: none;
-color: black
+color: black;
+background-color:yellow;
+
 }
 
 h1 {
-	margin-left: 25px;
+font-size: 50px;
+margin-top: 10px;
+	
+}
+
+h2 {
+	background-color: white;
+	font-size: 36px;
 }
 
 
@@ -55,6 +67,7 @@ h1 {
 	float:left;
 	width:100%;
 	overflow:hidden;
+
 	
 }
 #container3 {
@@ -71,13 +84,14 @@ h1 {
 	width:100%;
 	position:relative;
 	right:25%;
-
+	
 }
 #container1 {
 	float:left;
 	width:100%;
 	position:relative;
 	right:25%;
+
 	}
 
 #col1 {
